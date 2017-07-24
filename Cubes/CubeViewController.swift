@@ -51,6 +51,6 @@ class CubeViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         cube.image = UIImagePNGRepresentation(cubeImageView.image!)
         
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
-        
+        navigationController!.popViewController(animated: true)
     }
 }
