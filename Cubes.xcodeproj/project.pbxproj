@@ -13,6 +13,8 @@
 		D34EA69F1F26510200A3FB75 /* Cubes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D34EA69D1F26510200A3FB75 /* Cubes.xcdatamodeld */; };
 		D34EA6A11F26510200A3FB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34EA6A01F26510200A3FB75 /* Assets.xcassets */; };
 		D34EA6A41F26510200A3FB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34EA6A21F26510200A3FB75 /* LaunchScreen.storyboard */; };
+		D34EA6AC1F265A8C00A3FB75 /* i-hate-these-people-mnn1z6ci.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D34EA6AB1F265A8B00A3FB75 /* i-hate-these-people-mnn1z6ci.jpg */; };
+		D34EA6AE1F265FF200A3FB75 /* CubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34EA6AD1F265FF200A3FB75 /* CubeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D34EA6A01F26510200A3FB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D34EA6A31F26510200A3FB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D34EA6A51F26510200A3FB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34EA6AB1F265A8B00A3FB75 /* i-hate-these-people-mnn1z6ci.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "i-hate-these-people-mnn1z6ci.jpg"; path = "../../i-hate-these-people-mnn1z6ci.jpg"; sourceTree = "<group>"; };
+		D34EA6AD1F265FF200A3FB75 /* CubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		D34EA6951F26510200A3FB75 /* Cubes */ = {
 			isa = PBXGroup;
 			children = (
+				D34EA6AB1F265A8B00A3FB75 /* i-hate-these-people-mnn1z6ci.jpg */,
 				D34EA6961F26510200A3FB75 /* AppDelegate.swift */,
 				D34EA6981F26510200A3FB75 /* ViewController.swift */,
+				D34EA6AD1F265FF200A3FB75 /* CubeViewController.swift */,
 				D34EA69A1F26510200A3FB75 /* Main.storyboard */,
 				D34EA6A01F26510200A3FB75 /* Assets.xcassets */,
 				D34EA6A21F26510200A3FB75 /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34EA6AC1F265A8C00A3FB75 /* i-hate-these-people-mnn1z6ci.jpg in Resources */,
 				D34EA6A41F26510200A3FB75 /* LaunchScreen.storyboard in Resources */,
 				D34EA6A11F26510200A3FB75 /* Assets.xcassets in Resources */,
 				D34EA69C1F26510200A3FB75 /* Main.storyboard in Resources */,
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34EA6991F26510200A3FB75 /* ViewController.swift in Sources */,
+				D34EA6AE1F265FF200A3FB75 /* CubeViewController.swift in Sources */,
 				D34EA6971F26510200A3FB75 /* AppDelegate.swift in Sources */,
 				D34EA69F1F26510200A3FB75 /* Cubes.xcdatamodeld in Sources */,
 			);
